@@ -41,8 +41,8 @@ if (isset($_POST['submit'])) {
       <thead>
         <tr>
           <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
+          <th>Name</th>
+          <th>Do You like Cloud?</th>
           <th>Nice Comment</th>
           <th>Satisfaction</th>
           <th>Location</th>

@@ -47,9 +47,9 @@ if (isset($_POST['submit'])) {
 
   <form method="post">
     <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
-    <label for="firstname">First Name</label>
+    <label for="firstname">Name (Nickname)</label>
     <input type="text" name="firstname" id="firstname">
-    <label for="lastname">Last Name</label>
+    <label for="lastname">How Do You like Cloud?</label>
     <input type="text" name="lastname" id="lastname">
     <label for="email">Nice Comment</label>
     <input type="text" name="email" id="email">
